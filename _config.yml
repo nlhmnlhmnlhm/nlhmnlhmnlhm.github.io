@@ -1,0 +1,39 @@
+# Title of your blog; shows in the header
+name: "nlhm's blog"
+title: "nlhm's blog"
+
+# Description of your content (will only be used on Google Search)
+description: "nlhm's incomplete thoughts"
+
+# Your name. Will show in your footer + sidebar
+author: "nlhm"
+
+url: "https://nlhmnlhmnlhm.github.io"
+baseurl: ""
+
+# A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words.
+author-bio: ""
+
+# Google Analytics (you may want to changes these with yours or even delete :)
+
+# ga_domain: TBD
+# ga_tracking_id: TBD
+
+# Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
+
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+
+paginate: 10
+paginate_path: "/page/:num"
+
+# SCSS
+
+sass:
+  sass_dir: _scss
+  style: compressed
+
+future: true
