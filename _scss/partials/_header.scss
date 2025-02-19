@@ -64,15 +64,15 @@ header {
       border: 2px solid $link-color;
     }
   }
-  .back:after {
-    vertical-align: -10%;
-    content: "back to nlhmnlhmnlhm.github.io";
-  }
-  @media (max-width: 642px) {
-    .back:after {
-      content: "nlhmnlhmnlhm.github.io";
-    }
-  }
+  // .back:after {
+  //   vertical-align: -10%;
+  //   content: "back to nlhmnlhmnlhm.github.io";
+  // }
+  // @media (max-width: 642px) {
+  //   .back:after {
+  //     content: "nlhmnlhmnlhm.github.io";
+  //   }
+  // }
 } // end .menu-icon
 
 // Off-canvas
