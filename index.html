@@ -14,7 +14,7 @@ title: Homepage
   <ul class="posts">
     {% for post in paginator.posts %}
     <li itemscope itemtype="http://schema.org/BlogPosting">
-      <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url" target="_self">
+      <a href="{{ site.url }}{{ post.url }}" itemprop="url" target="_self">
         <div class="p-wrap">
           <article class="inner">
             <time
