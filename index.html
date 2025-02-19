@@ -33,6 +33,12 @@ title: Homepage
     {% endfor %} {% assign psize = site.posts | size %} {% if psize == 0 %}
     <div style="text-align: center; padding-top: 5em">
       <h2>No writeups yet. ¯\_(ツ)_/¯</h2>
+      <h2>Post Count: {{ site.posts | size }}</h2>
+<ul>
+  {% for post in site.posts %}
+    <li>{{ post.title }} - {{ post.date }}</li>
+  {% endfor %}
+</ul>
     </div>
     {% endif %}
   </ul>
