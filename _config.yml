@@ -27,7 +27,7 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
 
-paginate: 10
+paginate: 1
 paginate_path: "/page/:num"
 
 # SCSS
