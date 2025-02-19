@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "title"
-date:   2025-02-19 12:00:00 +0100
-categories : blog
+title: "title"
+date: 2025-02-19 10:00:00 +0100
 ---
 
 Hi.
