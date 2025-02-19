@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "title"
+title: "My Title"
 date: 2025-02-19 10:00:00 +0100
 ---
-
 Hi.
 
 <!-- Hi! Welcome to my first ever writeup! Let me tell you this "funny" story of me trying to
