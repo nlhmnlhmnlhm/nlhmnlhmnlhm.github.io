@@ -1,0 +1,34 @@
+{
+    "name": "forest-light",
+    "type": "light",
+    "colors": {
+      "editor.foreground": "#5a3a22",
+      "editor.background": "#ebddda"
+    },
+    "tokenColors": [
+      {
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": { "foreground": "#846e5a" }
+      },
+      {
+        "scope": ["keyword", "storage", "variable.language"],
+        "settings": { "foreground": "#4a5933" }
+      },
+      {
+        "scope": ["string", "string.quoted"],
+        "settings": { "foreground": "#55683a" }
+      },
+      {
+        "scope": ["entity.name.function", "support.function", "entity.name.type"],
+        "settings": { "foreground": "#4a2c1a" }
+      },
+      {
+        "scope": ["constant", "support.constant", "variable.other.constant"],
+        "settings": { "foreground": "#da8332" }
+      },
+      {
+        "scope": ["variable", "variable.parameter", "punctuation"],
+        "settings": { "foreground": "#5a3a22" }
+      }
+    ]
+  }

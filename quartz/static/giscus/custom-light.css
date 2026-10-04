@@ -1,0 +1,86 @@
+/*! MIT License
+ * Copyright (c) 2018 GitHub Inc.
+ * https://github.com/primer/primitives/blob/main/LICENSE
+ */
+
+ main {
+  color-scheme: light;
+  color: var(--color-fg-default);
+  --color-prettylights-syntax-comment: #846e5a; /* gray */
+  --color-prettylights-syntax-keyword: #4a5933; /* secondary green */
+  --color-prettylights-syntax-entity: #4a2c1a; /* dark brown */
+  --color-prettylights-syntax-constant: #da8332; /* earthy orange */
+  --color-prettylights-syntax-string: #55683a; /* moss green */
+  --color-prettylights-syntax-variable: #5a3a22; /* darkgray */
+  --color-prettylights-syntax-storage-modifier-import: #4a5933;
+  --color-prettylights-syntax-entity-tag: #4a5933;
+  --color-prettylights-syntax-string-regexp: #4a5933;
+  
+  --color-prettylights-syntax-markup-deleted-text: #a73428;
+  --color-prettylights-syntax-markup-deleted-bg: rgba(167, 52, 40, 0.12);
+  --color-prettylights-syntax-markup-inserted-text: #4a5933;
+  --color-prettylights-syntax-markup-inserted-bg: rgba(74, 89, 51, 0.15);
+  --color-prettylights-syntax-markup-changed-text: #da8332;
+  --color-prettylights-syntax-markup-changed-bg: rgba(218, 131, 50, 0.15);
+  --color-btn-text: #ebddda;
+  --color-btn-bg: #4a5933;
+  --color-btn-border: #4a5933;
+  --color-btn-shadow: none;
+  --color-btn-inset-shadow: none;
+  --color-btn-hover-bg: #55683a;
+  --color-btn-hover-border: #55683a;
+  --color-btn-active-bg: #3b4729;
+  --color-btn-active-border: #3b4729;
+  --color-btn-selected-bg: #3b4729;
+  --color-btn-primary-text: #ebddda; /* Keep text light for contrast */
+  --color-btn-primary-bg: #4a5933; /* Forest green background */
+  --color-btn-primary-border: #4a5933; 
+  --color-btn-primary-shadow: none;
+  --color-btn-primary-inset-shadow: none;
+  --color-btn-primary-hover-bg: #55683a; /* Slightly lighter moss green for hover */
+  --color-btn-primary-hover-border: #55683a;
+  --color-btn-primary-selected-bg: #3b4729; /* Darker green when clicked */
+  --color-btn-primary-selected-shadow: none;
+  --color-btn-primary-disabled-text: rgb(235 221 218 / 55%);
+  --color-btn-primary-disabled-bg: rgb(74 89 51 / 40%);
+  --color-btn-primary-disabled-border: transparent;
+  --color-action-list-item-default-hover-bg: rgb(132 110 90 / 20%);
+  --color-segmented-control-bg: #c9bcb4;
+  --color-segmented-control-button-bg: #ebddda;
+  --color-segmented-control-button-selected-border: #846e5a;
+  --color-fg-default: #5a3a22;
+  --color-fg-muted: #846e5a;
+  --color-fg-subtle: #846e5a;
+  --color-canvas-default: #ebddda;
+  --color-canvas-overlay: #c9bcb4;
+  --color-canvas-inset: #ebddda;
+  --color-canvas-subtle: #c9bcb4;
+  --color-border-default: #c9bcb4;
+  --color-border-muted: #846e5a;
+  --color-neutral-muted: rgb(132 110 90 / 20%);
+  --color-accent-fg: #da8332;
+  --color-accent-emphasis: #da8332;
+  --color-accent-muted: rgb(218 131 50 / 40%);
+  --color-accent-subtle: rgb(218 131 50 / 15%);
+  --color-success-fg: #4a5933;
+  --color-attention-fg: #9a6700;
+  --color-attention-muted: rgb(212 167 44 / 40%);
+  --color-attention-subtle: #fff8c5;
+  --color-danger-fg: #a73428;
+  --color-danger-muted: rgb(167 52 40 / 40%);
+  --color-danger-subtle: rgb(167 52 40 / 12%);
+  --color-primer-shadow-inset: none;
+  --color-scale-gray-1: #c9bcb4;
+  --color-scale-blue-1: rgb(218 131 50 / 40%);
+
+  --color-social-reaction-bg-hover: var(--color-scale-gray-1);
+  --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-1);
+}
+
+main .pagination-loader-container {
+  background-image: url("https://github.com/images/modules/pulls/progressive-disclosure-line.svg");
+}
+
+main .gsc-loading-image {
+  background-image: url("https://github.githubassets.com/images/mona-loading-default.gif");
+}

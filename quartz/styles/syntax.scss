@@ -1,0 +1,56 @@
+$light-tokens: (
+  "#24292e": var(--darkgray),
+  // plain text, punctuation, import names
+  "#6a737d": var(--gray),
+  // comments
+  "#d73a49": var(--tertiary),
+  // keywords, storage, operators
+  "#032f62": var(--secondary),
+  // strings, regexp
+  "#005cc5": #b85e2b,
+  // numbers, constants, builtins
+  "#6f42c1": #72874b,
+  // function / class / type names
+  "#22863a": #72874b,
+  // HTML / XML tags
+  "#e36209": var(--dark),
+  // variables, parameters
+  "#b31d28": #f84a56,
+  // invalid / errors
+  "#586069": var(--gray) 
+  // bracket matching
+);
+
+:root[saved-theme="light"] {
+  code,
+  pre {
+    background-color: transparent !important;
+  }
+
+  @each $hex, $color in $light-tokens {
+    pre > code[data-theme*=" "] span[style*="--shiki-light:#{$hex}" i] {
+      color: $color;
+    }
+  }
+}
+
+$dark-overrides: (
+  "#ca9ee6": var(--secondary)
+);
+
+[saved-theme="dark"] code[data-theme*=" "] {
+  color: var(--shiki-dark);
+  background-color: var(--shiki-dark-bg);
+}
+
+[saved-theme="dark"] code[data-theme*=" "] span {
+  color: var(--shiki-dark);
+}
+
+:root[saved-theme="dark"] {
+  @each $hex, $color in $dark-overrides {
+    pre > code[data-theme*=" "] span[style*="--shiki-dark:#{$hex}" i] {
+      color: $color;
+    }
+  }
+}
